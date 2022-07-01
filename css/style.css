@@ -64,15 +64,20 @@ header div{
   align-items: center;
 }
 
-.number_function{
+.circle_number_function{
   position: absolute;
-  width: fit-content;
   color: white;
   background-color: #9356DC;
-  padding: 5px 7px;
+  padding: 12px;
   border-radius: 100%;
 }
 
+.number_function{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
 .button_functioning button{
   width: 270px;
   margin-left: 10px;

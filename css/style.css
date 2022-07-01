@@ -175,3 +175,11 @@ footer h3{
 footer a{
   color: white;
 }
+
+.prop_restaurant span{
+  padding-left: 7px;
+}
+
+li{
+  margin: 5px;
+}

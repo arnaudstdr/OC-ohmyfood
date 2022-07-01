@@ -78,6 +78,7 @@ header div{
   top: 50%;
   transform: translate(-50%,-50%);
 }
+
 .button_functioning button{
   width: 270px;
   margin-left: 10px;

@@ -144,3 +144,13 @@ footer{
         width: 45%;
     }
 }
+
+@media (min-width: 1200px){
+    .cards{
+        width: 30%;
+    }
+
+    .listing_cards{
+        justify-content: center;
+    }
+}

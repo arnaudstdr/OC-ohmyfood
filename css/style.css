@@ -52,7 +52,11 @@ header div{
 
 /*functioning*/
 .functioning{
-  margin: 0px 20px;
+  
+  margin-bottom: 40px;
+}
+
+.steps_functioning{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,8 +105,21 @@ header div{
 /*restaurant*/
 
 .restaurants{
+  background-color: #e5e4e4;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h2{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.restaurants_cards{
+  
   margin: 0px 20px;
-  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -182,4 +199,29 @@ footer a{
 
 li{
   margin: 5px;
+}
+
+/*tablet*/
+@media (min-width: 900px){
+  .steps_functioning{
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .button_functioning button{
+    width: 250px;
+  }
+
+  .restaurants_cards{
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .cards{
+    width: 40%;
+  }
 }

@@ -120,16 +120,27 @@ p{
 
 
 /*footer*/
-
 footer{
     background-color: black;
     color: white;
     padding: 10px 20px;
-}
+  }
   
   footer h3{
     font-family: 'Shrikhand', sans-serif;
-}
+  }
+  
+  footer a{
+    color: white;
+  }
+  
+  .prop_restaurant span{
+    padding-left: 7px;
+  }
+  
+  li{
+    margin: 5px;
+  }
   
 /*tablet*/
 @media (min-width: 900px){

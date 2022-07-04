@@ -131,13 +131,13 @@ footer{
     font-family: 'Shrikhand', sans-serif;
 }
   
-
+/*tablet*/
 @media (min-width: 900px){
     .listing_cards{
         width: 100%;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 30px;
     }
 
     .cards{
@@ -145,6 +145,7 @@ footer{
     }
 }
 
+/*desktop*/
 @media (min-width: 1200px){
     .cards{
         width: 30%;

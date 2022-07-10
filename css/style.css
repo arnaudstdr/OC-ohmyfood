@@ -48,6 +48,7 @@ header div{
   border-radius: 30px;
   border-style: none;
   background: linear-gradient(#FF79DA, #9356DC);
+  cursor: pointer;
 }
 
 /*functioning*/

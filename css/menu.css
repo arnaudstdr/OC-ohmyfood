@@ -34,7 +34,7 @@ main img{
 .menu{
     position: relative;
     margin-top: -30px;
-    padding-bottom: 30px;
+    padding: 30px;
     background-color: whitesmoke;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -162,5 +162,4 @@ footer{
         width: 30%;
     }
 
-    
 }

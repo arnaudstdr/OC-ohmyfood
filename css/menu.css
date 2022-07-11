@@ -114,7 +114,13 @@ p{
 	border-radius: 30px;
 	border-style: none;
 	background: linear-gradient(#FF79DA, #9356DC);
+	opacity: 0.8;
 	cursor: pointer;
+}
+
+.menu button:hover{
+	box-shadow: 10px 5px 10px gray;
+	opacity: 1;
 }
 
 

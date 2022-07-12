@@ -15,140 +15,149 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 	</head>
 	<body>
-<!--header-->
-		<header>
-			<div>
-				<img src="images/logo/ohmyfood.png"/>
-			</div>
-		</header>
-
-<!--main-->
-		<main>
-			<section class="explorer">
-				<div class="form">
-					<i class="fa-solid fa-location-dot"></i>
-					<p>Paris, Belleville</p>
-				</div>
-				<div class="explorer_text">
-					<h2>Réservez le menu qui vous convient</h2>
-					<p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-					<button>
-						<span class="button_text">Explorer nos restaurants</span>
-					</button>
-				</div>
+<!--spinner-->
+		<div class="spinner">
+            <div class="loader loader-double">
 				
-			</section>
-<!--FUNCTIONING-->
-			<section class="functioning">
-				<div class="functionning_title">
-					<h2>Fonctionnement</h2>
+			</div>
+        </div>
+<!--header-->
+		<div class="main">
+			<header>
+				<div>
+					<img src="images/logo/ohmyfood.png"/>
 				</div>
-				<div class="steps_functioning">
-					<div class="button_functioning">
-						<div class="circle_number_function">
-							<div class="number_function">
-								<span>1</span>
-							</div>
-						</div>
+			</header>
+
+
+	<!--main-->
+			<main>
+				<section class="explorer">
+					<div class="form">
+						<i class="fa-solid fa-location-dot"></i>
+						<p>Paris, Belleville</p>
+					</div>
+					<div class="explorer_text">
+						<h2>Réservez le menu qui vous convient</h2>
+						<p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
 						<button>
-							<i class="fa-solid fa-mobile-screen-button"></i>
-							<span class="button_text">Coisissez un restaurant</span>
+							<span class="button_text">Explorer nos restaurants</span>
 						</button>
 					</div>
-					<div class="button_functioning">
-						<div class="circle_number_function">
-							<div class="number_function">
-								<span>2</span>
-							</div>
-						</div>
-						<button>
-							<i class="fa-solid fa-list-ul"></i>
-							<span class="button_text">Composez votre menu</span>
-						</button>
+					
+				</section>
+	<!--FUNCTIONING-->
+				<section class="functioning">
+					<div class="functionning_title">
+						<h2>Fonctionnement</h2>
 					</div>
-					<div class="button_functioning">
-						<div class="circle_number_function">
-							<div class="number_function">
-								<span>3</span>
+					<div class="steps_functioning">
+						<div class="button_functioning">
+							<div class="circle_number_function">
+								<div class="number_function">
+									<span>1</span>
+								</div>
 							</div>
-						</div>
-						<div class="button_3">
 							<button>
-								<i class="fa-solid fa-store"></i>
-								<span class="button_text">Dégustez au restaurant</span>
+								<i class="fa-solid fa-mobile-screen-button"></i>
+								<span class="button_text">Coisissez un restaurant</span>
 							</button>
 						</div>
+						<div class="button_functioning">
+							<div class="circle_number_function">
+								<div class="number_function">
+									<span>2</span>
+								</div>
+							</div>
+							<button>
+								<i class="fa-solid fa-list-ul"></i>
+								<span class="button_text">Composez votre menu</span>
+							</button>
+						</div>
+						<div class="button_functioning">
+							<div class="circle_number_function">
+								<div class="number_function">
+									<span>3</span>
+								</div>
+							</div>
+							<div class="button_3">
+								<button>
+									<i class="fa-solid fa-store"></i>
+									<span class="button_text">Dégustez au restaurant</span>
+								</button>
+							</div>
+						</div>
 					</div>
-				</div>
-			</section>
-<!--RESTAURANTS-->
-			<section class="restaurants">
-				<div class="restaurants_title">
-					<h2>Restaurants</h2>
-				</div>
-				<div class="restaurants_cards">
-					<a href="palette_du_gout.html" class="cards">
-						<img src="images/restaurants/la_palette_du_gout.jpg"/>
-						<div class="tag">Nouveau</div>
-						<div class="description">
-							<div class="description_text">
-								<h3>La palette du goût</h3>
-								<p>Ménilmontant</p>
-							</div>
-							<i class="fa-regular fa-heart fa-2x"></i>
-						</div>
-					</a>
-					<a href="la_note_enchantee.html" class="cards">
-						<img src="images/restaurants/la_note_enchantee.jpg"/>
-						<div class="tag">Nouveau</div>
-						<div class="description">
-							<div class="description_text">
-								<h3>La note enchantée</h3>
-								<p>Charonne</p>
-							</div>
-							<i class="fa-regular fa-heart fa-2x"></i>
-						</div>
-					</a>
-					<a href="a_la_francaise.html" class="cards">
-						<img src="images/restaurants/a_la_francaise.jpg"/>
-						<div class="description">
-							<div class="description_text">
-								<h3>À la française</h3>
-								<p>Cité Rouge</p>
-							</div>
-							<i class="fa-regular fa-heart fa-2x"></i>
-						</div>
-					</a>
-					<a href="le_delice_des_sens.html" class="cards">
-							<img src="images/restaurants/le_delice_des_sens.jpg"/>
-						<div class="description">
-							<div class="description_text">
-								<h3>Le délice des sens</h3>
-								<p>Folie-Méricourt</p>
-							</div>
-							<i class="fa-regular fa-heart fa-2x"></i>
-						</div>
-					</a>
-				</div>
-			</section>
-		</main>
-<!--footer-->
-		<footer>
-			<h3>ohmyfood</h3>
-			<ul>
-				<li>
-					<div class="prop_restaurant">
-						<i class="fa-solid fa-utensils"></i>
-						<span>Proposer un restaurant</span>
+				</section>
+	<!--RESTAURANTS-->
+				<section class="restaurants">
+					<div class="restaurants_title">
+						<h2>Restaurants</h2>
 					</div>
-				</li>
-				<li>
-					<i class="fa-solid fa-handshake-angle"></i>
-					<span>Devenir partenaire</span>
-				</li>
-				<li>Mentions Légales</li>
-				<li><a href="mailto:contact@ohmyfood.com">Contact</a></li>
-			</ul>
-		</footer>
+					<div class="restaurants_cards">
+						<a href="palette_du_gout.html" class="cards">
+							<img src="images/restaurants/la_palette_du_gout.jpg"/>
+							<div class="tag">Nouveau</div>
+							<div class="description">
+								<div class="description_text">
+									<h3>La palette du goût</h3>
+									<p>Ménilmontant</p>
+								</div>
+								<i class="fa-regular fa-heart fa-2x"></i>
+							</div>
+						</a>
+						<a href="la_note_enchantee.html" class="cards">
+							<img src="images/restaurants/la_note_enchantee.jpg"/>
+							<div class="tag">Nouveau</div>
+							<div class="description">
+								<div class="description_text">
+									<h3>La note enchantée</h3>
+									<p>Charonne</p>
+								</div>
+								<i class="fa-regular fa-heart fa-2x"></i>
+							</div>
+						</a>
+						<a href="a_la_francaise.html" class="cards">
+							<img src="images/restaurants/a_la_francaise.jpg"/>
+							<div class="description">
+								<div class="description_text">
+									<h3>À la française</h3>
+									<p>Cité Rouge</p>
+								</div>
+								<i class="fa-regular fa-heart fa-2x"></i>
+							</div>
+						</a>
+						<a href="le_delice_des_sens.html" class="cards">
+								<img src="images/restaurants/le_delice_des_sens.jpg"/>
+							<div class="description">
+								<div class="description_text">
+									<h3>Le délice des sens</h3>
+									<p>Folie-Méricourt</p>
+								</div>
+								<i class="fa-regular fa-heart fa-2x"></i>
+							</div>
+						</a>
+					</div>
+				</section>
+			</main>
+	<!--footer-->
+			<footer>
+				<h3>ohmyfood</h3>
+				<ul>
+					<li>
+						<div class="prop_restaurant">
+							<i class="fa-solid fa-utensils"></i>
+							<span>Proposer un restaurant</span>
+						</div>
+					</li>
+					<li>
+						<i class="fa-solid fa-handshake-angle"></i>
+						<span>Devenir partenaire</span>
+					</li>
+					<li>Mentions Légales</li>
+					<li><a href="mailto:contact@ohmyfood.com">Contact</a></li>
+				</ul>
+			</footer>
+		</div>
 	</body>
 </html>
